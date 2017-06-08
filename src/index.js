@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './modules/dashboard/component/App';
+import App from './modules/dashboard/components/App';
+import Header from './modules/shared/components/Header';
+import Footer from './modules/shared/components/Footer';
 import registerServiceWorker from './registerServiceWorker';
-import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+	<div>
+		<Header />
+		<App />
+		<Footer />
+	</div>,
+	document.getElementById('root')
+);
+
 registerServiceWorker();
