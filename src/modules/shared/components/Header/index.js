@@ -1,19 +1,9 @@
-import React from 'react';
-//import { Link } from 'react-router';
-import {Navbar, NavItem, Row, Icon} from 'react-materialize';
+import React, { Component } from 'react';
 
-class PageHeader extends React.Component {
+class PageHeader extends Component {
   render() {
     return (
-      <header>
-        <Row>
-        <Navbar brand='logo' right>
-          <NavItem href='/'>Dashboard</NavItem>
-          <NavItem href='/users'>Users</NavItem>
-          <NavItem href='#'><Icon>power_settings_new</Icon></NavItem>
-        </Navbar>
-        </Row>
-      </header>
+      <div>Deneme 123</div>
     )
   }
 }
