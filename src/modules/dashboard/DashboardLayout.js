@@ -7,7 +7,12 @@ class DashboardLayout extends Component {
       return (
         <Grid>
           <Row>
-            <Col xs={12} sm={3} md={3}>
+            <Col xs={12}>
+              <SearchBar />
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12}>
               <SearchBar />
             </Col>
           </Row>

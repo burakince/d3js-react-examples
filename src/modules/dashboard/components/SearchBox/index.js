@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Autosuggest from 'react-autosuggest';
 import datas from './datas';
 
-import './autosuggest.css';
+import './SearchBox.css';
 
 const getSuggestions = value => {
   const inputValue = value.trim().toLowerCase();

@@ -3,10 +3,12 @@ import {Grid, Row, Col} from 'react-bootstrap';
 import DateSelection from '../DateSelection';
 import SearchBox from '../SearchBox';
 
+import './SearchBar.css';
+
 class SearchBar extends Component {
   render() {
     return (
-      <Grid>
+      <Grid id="search-bar">
         <Row>
           <Col xs={6} sm={4} md={3}>
             <DateSelection />
