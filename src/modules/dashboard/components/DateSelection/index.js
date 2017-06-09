@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import {Grid, Row, Col} from 'react-bootstrap';
 import Select from 'react-select';
 
 import 'react-select/dist/react-select.css';
 
 class DateSelection extends Component {
   constructor(props) {
-     super(props);
+    super(props);
 
-     this.state = { value: 'today' };
-   }
+    this.state = {
+      value: 'today'
+    };
+  }
 
   updateState(newValue) {
     this.setState({
@@ -25,23 +26,14 @@ class DateSelection extends Component {
     ];
 
     return (
-      <Grid>
-        <Row>
-          <Col xs={6} sm={4} md={3}>
-            <Select
-              name="date-selection"
-              value={this.state.value}
-              options={options}
-              clearable={false}
-              searchable={false}
-              onChange={this.updateState.bind(this)}
-            />
-          </Col>
-          <Col xs={6} sm={8} md={9}>
-            Search Box
-          </Col>
-        </Row>
-      </Grid>
+      <Select
+        name="date-selection"
+        value={this.state.value}
+        options={options}
+        clearable={false}
+        searchable={false}
+        onChange={this.updateState.bind(this)}
+      />
     )
   }
 }

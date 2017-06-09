@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
-import DateSelection from './components/DateSelection';
+import SearchBar from './components/SearchBar';
 
 class DashboardLayout extends Component {
   render() {
@@ -8,7 +8,7 @@ class DashboardLayout extends Component {
         <Grid>
           <Row>
             <Col xs={12} sm={3} md={3}>
-              <DateSelection />
+              <SearchBar />
             </Col>
           </Row>
         </Grid>
