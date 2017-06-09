@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import SearchBar from './components/SearchBar';
+import FunnelChart from './components/FunnelChart';
+import PieChart from './components/PieChart';
 
 class DashboardLayout extends Component {
   render() {
@@ -12,8 +14,11 @@ class DashboardLayout extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs={12}>
-              <SearchBar />
+            <Col xs={6}>
+              <FunnelChart />
+            </Col>
+            <Col xs={6}>
+              <PieChart />
             </Col>
           </Row>
         </Grid>
