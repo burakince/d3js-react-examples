@@ -14,10 +14,10 @@ class DashboardLayout extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs={6}>
+            <Col xs={12} sm={6} md={6}>
               <FunnelChart />
             </Col>
-            <Col xs={6}>
+            <Col xs={12} sm={6} md={6}>
               <PieChart />
             </Col>
           </Row>

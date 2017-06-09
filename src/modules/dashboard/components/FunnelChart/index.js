@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { LineChart, Line } from 'recharts';
 
-class FunnelChart extends Component {
+class FunnelChartComponent extends Component {
   render() {
     return (
       false
     )
   }
 }
-export default FunnelChart;
+export default FunnelChartComponent;

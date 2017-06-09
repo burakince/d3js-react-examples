@@ -3,7 +3,7 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts'
 
 import datas from './datas';
 
-class LineChart extends Component {
+class LineChartComponent extends Component {
   render() {
     return (
       <LineChart width={600} height={300} data={datas} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
@@ -16,4 +16,4 @@ class LineChart extends Component {
     )
   }
 }
-export default LineChart;
+export default LineChartComponent;
