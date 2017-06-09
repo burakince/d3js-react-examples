@@ -1,0 +1,41 @@
+#navigation-bar {
+	height: 70px;
+}
+
+#logo {
+	height: 70px;
+}
+
+#logo span {
+	line-height: 35px;
+}
+
+#logo img {
+	float: left;
+	margin-top: -6px;
+	margin-right: 4px;
+	width: 48px;
+	height: 48px;
+}
+
+#profile-dropdown {
+	padding: 7px;
+	height: 69px;
+}
+
+#profile-dropdown img {
+	float: left;
+	margin: 10px;
+}
+
+#profile-dropdown > div {
+	float: left;
+}
+
+#profile-dropdown > div > span {
+	line-height: 25px;
+}
+
+#profile-dropdown > .caret {
+	margin: 25px 4px;
+}
