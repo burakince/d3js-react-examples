@@ -8,26 +8,15 @@ import { selectDate } from '../../actions/';
 import 'react-select/dist/react-select.css';
 
 class DateSelection extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      value: 'today'
-    };
-  }
-
   updateState(newValue) {
     this.props.selectDate(newValue);
-    this.setState({
-      value: newValue
-    });
   }
 
   render() {
     return (
       <Select
         name="date-selection"
-        value={this.state.value}
+        value={this.props.activeDate.value}
         options={this.props.dates}
         clearable={false}
         searchable={false}
@@ -39,7 +28,8 @@ class DateSelection extends Component {
 
 function mapStateToProps(state) {
   return {
-    dates: state.dates
+    dates: state.dates,
+    activeDate: state.activeDate
   }
 }
 
