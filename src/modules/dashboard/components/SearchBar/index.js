@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
-import DateSelection from '../DateSelection';
+
+import DateSelection from '../../containers/DateSelection';
 import SearchBox from '../SearchBox';
 
 import './SearchBar.css';

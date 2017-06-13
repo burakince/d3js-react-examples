@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
+
 import SearchBar from './components/SearchBar';
 import FunnelChart from './components/FunnelChart';
-import LineChart from './components/LineChart';
 import PieChart from './components/PieChart';
 import PositiveAndNegativeBarChart from './components/PositiveAndNegativeBarChart';
 import PieChartWithCustomizedLabel from './components/PieChartWithCustomizedLabel';
@@ -12,6 +12,8 @@ import SimpleRadialBarChart from './components/SimpleRadialBarChart';
 import CustomContentTreemapChart from './components/CustomContentTreemapChart';
 import LineBarAreaComposedChart from './components/LineBarAreaComposedChart';
 import ScatterChart from './components/ScatterChart';
+
+import LineChart from './containers/LineChart';
 
 class DashboardLayout extends Component {
   render() {

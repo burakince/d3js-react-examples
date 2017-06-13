@@ -1,7 +1,7 @@
-export const selectCar = (car) => {
-	console.log("You clicked on car: ", car);
+export const selectDate = (date) => {
+	console.log("You clicked on date: ", date);
 	return {
-		type: "CAR_SELECTED",
-		payload: car
+		type: "DATE_SELECTED",
+		payload: date
 	}
 };
