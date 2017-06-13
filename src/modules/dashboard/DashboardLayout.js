@@ -10,6 +10,7 @@ import PieChartWithPaddingAngle from './components/PieChartWithPaddingAngle';
 import SimpleRadarChart from './components/SimpleRadarChart';
 import SimpleRadialBarChart from './components/SimpleRadialBarChart';
 import CustomContentTreemap from './components/CustomContentTreemap';
+import LineBarAreaComposedChart from './components/LineBarAreaComposedChart';
 
 class DashboardLayout extends Component {
   render() {
@@ -57,7 +58,7 @@ class DashboardLayout extends Component {
               <CustomContentTreemap />
             </Col>
             <Col xs={12} sm={6} md={6}>
-              <LineChart />
+              <LineBarAreaComposedChart />
             </Col>
           </Row>
         </Grid>
