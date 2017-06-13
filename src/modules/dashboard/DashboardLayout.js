@@ -8,6 +8,7 @@ import PositiveAndNegativeBarChart from './components/PositiveAndNegativeBarChar
 import PieChartWithCustomizedLabel from './components/PieChartWithCustomizedLabel';
 import PieChartWithPaddingAngle from './components/PieChartWithPaddingAngle';
 import SimpleRadarChart from './components/SimpleRadarChart';
+import SimpleRadialBarChart from './components/SimpleRadialBarChart';
 
 class DashboardLayout extends Component {
   render() {
@@ -39,7 +40,7 @@ class DashboardLayout extends Component {
               <SimpleRadarChart />
             </Col>
             <Col xs={12} sm={6} md={6}>
-              <PieChartWithPaddingAngle />
+              <SimpleRadialBarChart />
             </Col>
           </Row>
           <Row>
