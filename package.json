@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "React & D3.js Examples",
   "author": "Burak İnce",
+  "homepage" : "https://d3js-react-examples.herokuapp.com/",
   "license": "MIT",
   "keywords": [
     "d3",
