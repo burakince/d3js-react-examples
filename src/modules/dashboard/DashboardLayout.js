@@ -9,6 +9,7 @@ import PieChartWithCustomizedLabel from './components/PieChartWithCustomizedLabe
 import PieChartWithPaddingAngle from './components/PieChartWithPaddingAngle';
 import SimpleRadarChart from './components/SimpleRadarChart';
 import SimpleRadialBarChart from './components/SimpleRadialBarChart';
+import CustomContentTreemap from './components/CustomContentTreemap';
 
 class DashboardLayout extends Component {
   render() {
@@ -46,6 +47,14 @@ class DashboardLayout extends Component {
           <Row>
             <Col xs={12} sm={6} md={6}>
               <FunnelChart />
+            </Col>
+            <Col xs={12} sm={6} md={6}>
+              <LineChart />
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} sm={6} md={6}>
+              <CustomContentTreemap />
             </Col>
             <Col xs={12} sm={6} md={6}>
               <LineChart />
